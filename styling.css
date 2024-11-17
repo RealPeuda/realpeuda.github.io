@@ -1,0 +1,33 @@
+/* Font import */
+@\import "https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap";
+
+
+body {
+    font-family: "Nanum Myeongjo";
+    color: #dedeca;
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 60em;
+    margin: auto;
+    text-align: center;
+    background-color: #303030;
+}
+
+.banter {
+    font-size: 0.6em;
+    padding-bottom: 1.5em
+}
+
+.image-container {
+    padding-bottom: 2.5em;
+}
+
+.image-container img {
+    max-height: 400px;
+    transition: filter 0.3s ease, transform 0.3s ease;  
+}
+
+.image-container img:hover {
+    filter: brightness(70%); 
+    transform: scale(1.05); 
+}
