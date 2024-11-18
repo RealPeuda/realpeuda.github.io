@@ -57,3 +57,13 @@ a {
     text-align: left;
     padding-left: 24em;
 }
+
+.album-images {
+    max-width: 350px;
+}
+
+.album-images img {
+    float: left;
+    height: 350px;
+    padding-right: 10px
+}
